@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: Apache-2.0
-import catalogData from "../../../data/x-graphql-catalog.json";
+import catalogData from "./x-graphql-catalog.json";
 
 export interface Operation {
   name: string;
