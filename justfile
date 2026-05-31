@@ -33,6 +33,7 @@ lint-ts:
 
 # Build both components
 build: build-rust install-ts
+    cd ts && bun run build
 
 # Run all tests
 test: test-rust test-ts
