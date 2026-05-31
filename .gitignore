@@ -1,0 +1,25 @@
+# Rust build artifacts
+target/
+Cargo.lock
+
+# Bun/Node build artifacts and dependencies
+node_modules/
+ts/node_modules/
+dist/
+ts/dist/
+
+# Local databases and cache files
+*.sqlite
+*.sqlite-journal
+*.sqlite-wal
+query_id_cache.json
+.aphrody/
+
+# Environment files
+.env
+.env.*
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
