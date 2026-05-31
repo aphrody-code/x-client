@@ -3,7 +3,7 @@
   "configVersion": 1,
   "workspaces": {
     "": {
-      "name": "@your-org/x",
+      "name": "@aphrody-code/x",
       "dependencies": {
         "zod": "^4.4.3",
       },
